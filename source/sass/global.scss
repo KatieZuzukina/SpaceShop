@@ -1,0 +1,30 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  font-family: "SegoeUI", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #131316;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

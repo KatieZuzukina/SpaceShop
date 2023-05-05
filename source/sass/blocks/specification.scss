@@ -1,0 +1,23 @@
+.specification__row {
+  display: flex;
+  justify-content: space-between;
+  width: 237px;
+}
+
+.specification__old-price {
+  text-decoration-line: line-through;
+  color: #D9D9D9;
+}
+
+.specification__new-price {
+  font-weight: 700;
+}
+
+.specification__percent {
+  margin-left: 13px;
+  background-color:  #FF0000;
+  border-radius: 4px;
+  color: #FFFFFF;
+  padding: 1px 10px;
+  margin-bottom: 20px;
+}

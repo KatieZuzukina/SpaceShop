@@ -1,0 +1,35 @@
+.product {
+  background-color: #FFFFFF;
+}
+
+.product__info {
+  text-align: center;
+}
+
+.product__title {
+  color: #131316;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.product__description {
+  color: #131316;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.product__link {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  letter-spacing: 0.06em;
+  margin: 0 10px 10px;
+}

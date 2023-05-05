@@ -1,0 +1,25 @@
+.main-header {
+  position: relative;
+}
+
+.main-header::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 542px;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(19, 19, 22, 0) 0%, #131316 100%);;
+}
+
+.main-header__wrapper {
+  margin: 0 auto;
+  padding: 20px 190px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__button {
+  padding: 10px 16px;
+}

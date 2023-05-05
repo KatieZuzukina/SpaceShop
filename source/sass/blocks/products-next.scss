@@ -1,0 +1,10 @@
+.products-next {
+  display: grid;
+  grid-template-columns: repeat(2,305px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.products-next__list {
+  border-radius: 4px;
+}
